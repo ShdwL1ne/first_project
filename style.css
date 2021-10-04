@@ -128,8 +128,20 @@ body {
 }
 
 .contacts_items {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+}
+
+.contacts_items_link {
     text-decoration: none;
-    padding-top: 16px;
     font-weight: 300;
     font-size: 16px;
     line-height: 26px;
@@ -185,17 +197,58 @@ body {
 }
 
 .input_text {
+    padding-left: 32px;
     border: 1px solid #356EAD;
     box-sizing: border-box;
     border-radius: 10px;
     opacity: 0.4;
     max-width: 428px;
     height: 72px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.input_text::-webkit-input-placeholder {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.5;
+}
+
+.input_text::-moz-placeholder {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.5;
+}
+
+.input_text:-ms-input-placeholder {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.5;
+}
+
+.input_text::-ms-input-placeholder {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.5;
 }
 
 .input_text::placeholder {
-    padding-top: 16px;
-    padding-left: 32px;
     font-family: Roboto;
     font-weight: 300;
     font-size: 16px;
@@ -207,6 +260,7 @@ body {
 
 .input_msg {
     height: 144px;
+    padding-top: 16px;
 }
 
 .button_submit {
